@@ -1,1 +1,1 @@
-# chooseYourWeaponsForApexLegends
+# ChooseYourWeaponsForApexLegends
