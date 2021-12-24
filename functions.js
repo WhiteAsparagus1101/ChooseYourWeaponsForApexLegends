@@ -1,4 +1,4 @@
-let weapons = [{
+const weapons = [{
         "name": "HAVOC Rifle",
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
         "extended mag": ["none", "Level1", "Level2", "Level3"],
@@ -195,13 +195,13 @@ let weapons = [{
     }
 ];
 
-let includeSupplyDrop = true;
+const includeSupplyDrop = true;
 
 let results = [];
 
 for (let i = 0; i < 2; i++) {
     let result = [];
-    let weapon = weapons[Math.floor(Math.random() * weapons.length)];
+    const weapon = weapons[Math.floor(Math.random() * weapons.length)];
     if (!includeSupplyDrop) {
         while (weapon["supply drop"] == true) {
             weapon = weapons[Math.floor(Math.random() * weapons.length)];
