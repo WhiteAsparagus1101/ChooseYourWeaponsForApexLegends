@@ -2,7 +2,7 @@ const weapons = [{
         "name": "HAVOC Rifle",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"],
             "hop_up": ["none", "Turbocharger"]
         },
@@ -12,7 +12,7 @@ const weapons = [{
         "name": "VK-47 Flatline",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false,
@@ -22,7 +22,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"],
             "hop_up": ["none", "Boosted Loader"]
         },
@@ -33,7 +33,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -49,7 +49,7 @@ const weapons = [{
         "name": "Prowler Burst PDW",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -59,7 +59,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -69,7 +69,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -79,7 +79,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -89,7 +89,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"],
             "hop_up": ["none", "Turbocharger"]
         },
@@ -100,7 +100,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -117,7 +117,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "standard_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -133,7 +133,7 @@ const weapons = [{
         "name": "Triple Take",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "sniper_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -142,7 +142,7 @@ const weapons = [{
         "name": "30-30 Repeater",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "sniper_stock": ["none", "Level1", "Level2", "Level3"],
             "hop_up": ["none", "Shatter Caps"]
         },
@@ -169,7 +169,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "6x Sniper", "3x HCOG \"Ranger\"", "2x-4x Variable AOG", "4x-8x Variable Sniper", "4x-10x Digital Sniper Threat"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "sniper_stock": ["none", "Level1", "Level2", "Level3"]
         },
         "supply drop": false
@@ -183,7 +183,7 @@ const weapons = [{
         "name": "Sentinel",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "6x Sniper", "3x HCOG \"Ranger\"", "2x-4x Variable AOG", "4x-8x Variable Sniper", "4x-10x Digital Sniper Threat"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "sniper_stock": ["none", "Level1", "Level2", "Level3"],
             "hop_up": ["none", "Deadeye's Tempo"]
         },
@@ -227,7 +227,7 @@ const weapons = [{
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
             "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"]
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"]
         },
         "supply drop": false
     },
@@ -235,7 +235,7 @@ const weapons = [{
         "name": "P2020",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"]
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"]
         },
         "supply drop": false
     },
@@ -243,14 +243,14 @@ const weapons = [{
         "name": "Wingman",
         "attatchment": {
             "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-            "extended_mag": ["none", "Level1", "Level2", "Level3"],
+            "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
             "hop_up": ["none", "Boosted Loader"]
         },
         "supply drop": false
     }
 ];
 
-const includeSupplyDrop = true;
+let includeSupplyDrop = false;
 
 
 function choose() {
@@ -291,7 +291,18 @@ function choose() {
     d1.innerHTML = display;
 }
 
+function changeSupplyDrop() {
+    let check = document.getElementById("supply_drop");
+    includeSupplyDrop = check.checked;
+    // console.log(check.checked);
+    // console.log(includeSupplyDrop);
+}
+
+
 window.addEventListener("load", () => {
     let btn = document.getElementById("b1");
     btn.addEventListener("click", choose, false);
+
+    let check = document.getElementById("supply_drop");
+    check.addEventListener("click", changeSupplyDrop, false);
 })
