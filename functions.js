@@ -201,7 +201,7 @@ let results = [];
 
 for (let i = 0; i < 2; i++) {
     let result = [];
-    const weapon = weapons[Math.floor(Math.random() * weapons.length)];
+    let weapon = weapons[Math.floor(Math.random() * weapons.length)];
     if (!includeSupplyDrop) {
         while (weapon["supply drop"] == true) {
             weapon = weapons[Math.floor(Math.random() * weapons.length)];
