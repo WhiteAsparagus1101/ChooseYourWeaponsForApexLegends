@@ -295,7 +295,7 @@ function changeSupplyDrop() {
     let check = document.getElementById("supply_drop");
     includeSupplyDrop = check.checked;
     // console.log(check.checked);
-    // console.log(includeSupplyDrop);
+    console.log(includeSupplyDrop);
 }
 
 
