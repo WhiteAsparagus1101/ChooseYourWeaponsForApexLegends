@@ -51,9 +51,12 @@ const weapons = [{
     "ammo": "Light",
     "weapon_type": "SMG",
     "attachments": {
-        "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"]
+        "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
+        "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
+        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
+        "standard_stock": ["none", "Level1", "Level2", "Level3"]
     },
-    "supply_drop": true,
+    "supply_drop": false,
 },
 {
     "name": "Prowler Burst PDW",
@@ -84,11 +87,11 @@ const weapons = [{
     "weapon_type": "SMG",
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-        "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
-        "standard_stock": ["none", "Level1", "Level2", "Level3"]
+        // "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
+        // "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
+        // "standard_stock": ["none", "Level1", "Level2", "Level3"]
     },
-    "supply_drop": false
+    "supply_drop": true
 },
 {
     "name": "C.A.R. SMG",
@@ -132,9 +135,11 @@ const weapons = [{
     "ammo": "Heavy",
     "weapon_type": "LMG",
     "attachments": {
-        "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"]
+        "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "3x HCOG \"Ranger\"", "2x-4x Variable AOG"],
+        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
+        "standard_stock": ["none", "Level1", "Level2", "Level3"]
     },
-    "supply_drop": true
+    "supply_drop": false
 },
 {
     "name": "Rampage LMG",
@@ -247,10 +252,10 @@ const weapons = [{
     "weapon_type": "SG",
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-        "shotgun_bolt": ["none", "Level1", "Level2", "Level3"],
-        "hop_up": ["none", "Dual Shell"]
+        // "shotgun_bolt": ["none", "Level1", "Level2", "Level3"],
+        // "hop_up": ["none", "Dual Shell"]
     },
-    "supply_drop": false
+    "supply_drop": true
 },
 {
     "name": "Mozambique Shotgun",
@@ -258,7 +263,9 @@ const weapons = [{
     "weapon_type": "SG",
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-        "shotgun_bolt": ["none", "Level1", "Level2", "Level3"]
+        "shotgun_bolt": ["none", "Level1", "Level2", "Level3"],
+        "hop_up":["none", "Hammerpoints Rounds"]
+
     },
     "supply_drop": false
 },
@@ -268,7 +275,8 @@ const weapons = [{
     "weapon_type": "SG",
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-        "shotgun_bolt": ["none", "Level1", "Level2", "Level3"]
+        "shotgun_bolt": ["none", "Level1", "Level2", "Level3"],
+        "hop_up":["none", "Kinetic Feeder"]
     },
     "supply_drop": false
 },
@@ -279,7 +287,8 @@ const weapons = [{
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
         "barrel_stabilizer": ["none", "Level1", "Level2", "Level3"],
-        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"]
+        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
+        "hop_up":["none", "Hammerpoints Rounds"]
     },
     "supply_drop": false
 },
@@ -289,7 +298,8 @@ const weapons = [{
     "weapon_type": "HG",
     "attachments": {
         "optic": ["none", "1x HCOG \"Classic\"", "1x Holo", "2x HCOG \"Bruiser\"", "1x-2x Variable Holo", "1x Digital Threat"],
-        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"]
+        "extended_mag": ["none", "Level1", "Level2", "Level3", "Level4"],
+        "hop_up":["none", "Hammerpoints Rounds"]
     },
     "supply_drop": false
 },
